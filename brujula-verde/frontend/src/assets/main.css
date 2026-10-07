@@ -1,0 +1,26 @@
+:root {
+  --verde-oscuro: #1B4332;
+  --verde: #2E7D5B;
+  --verde-claro: #74C69D;
+  --verde-pastel: #D8F3DC;
+  --terracota: #D98E48;
+  --blanco: #FFFFFF;
+  --texto: #1f2b24;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--blanco);
+  color: var(--texto);
+  overflow-x: hidden;
+}

@@ -1,0 +1,20 @@
+# Dependencias (se reinstalan con `npm install`)
+node_modules/
+
+# Builds generados (se regeneran con `npm run build`)
+dist/
+.vite/
+*.tsbuildinfo
+
+# Ejecutables de Go
+*.exe
+/basics
+/brujulaverde
+
+# Configuración local de Claude Code
+.claude/settings.local.json
+
+# Editor / sistema
+.vscode/
+.idea/
+.DS_Store
